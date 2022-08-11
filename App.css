@@ -1,0 +1,119 @@
+* {
+margin: 0%;
+padding: 0%;
+
+}
+
+nav,footer {
+    background-color:rgba(8, 8, 228, 0.938);
+    color: white;
+    padding: 10px 2px ;
+    
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.header{
+    background-color:hsla(54, 20%, 90%, 0.966);
+    color: white;
+    padding: 30px  ;
+    
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+
+    box-shadow: 0 0 1 rgba(0,0,0,0.1);
+    
+}
+
+span{
+    color: red;
+    font-size: larger;
+    font-weight: 900;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.container{
+
+background: rgb(186, 220, 224);
+width: 70%;
+margin: auto;
+min-height: 100vh;    
+padding:4vmax 6vmax;
+box-sizing: border-box;
+
+}
+
+.container>h1{
+    text-align: center;
+    margin: 20px;
+    font-size:2rem;
+
+}
+
+.container>form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+input,
+textarea,
+button{
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,0.214);
+    border-radius: 5px ;
+    margin: 10px 0;
+    font-size: 1.4rem;
+
+}
+
+button{
+    border:none;
+    cursor: pointer;
+    background-color: rgb(13, 14, 13);
+    color:white;
+}
+
+button:hover{
+    color:deepskyblue;
+}
+
+.task{
+    display: flex;
+    background-color: white;
+    padding:20px;
+    border-radius: 5px;
+    margin: 20px 0;
+    align-items: centre;
+    
+}
+
+
+.task span{
+color:rgba(0, 0, 0, 0.404);
+}
+
+.task>div{
+    width:100%;
+}
+
+.task button{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    font-size:1.6 rem;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.task button:hover{
+    background-color: rgb(113, 238, 119);
+}
+
